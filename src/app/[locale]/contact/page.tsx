@@ -90,9 +90,12 @@ export default async function ContactPage({ params }: Props) {
             <h2 className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
               {t("contactMethods.include")}
             </h2>
-            <ul className="mt-4 space-y-3 text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+            <ul className="mt-4 space-y-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
               {(t.raw("contactMethods.items") as string[]).map((item) => (
-                <li key={item}>{item}</li>
+                <li key={item} className="flex items-center gap-2.5">
+                  <span className="size-1.5 shrink-0 rounded-full bg-blue-500/60 dark:bg-blue-400/60" />
+                  {item}
+                </li>
               ))}
             </ul>
           </div>

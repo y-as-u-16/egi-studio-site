@@ -41,6 +41,7 @@ export default async function PrivacyPage({ params }: Props) {
             key={section.title}
             className="rounded-3xl border border-zinc-200 bg-white p-6 dark:border-white/10 dark:bg-white/[0.04]"
           >
+            <div className="mb-4 h-1 w-6 rounded-full bg-blue-500/60 dark:bg-blue-400/60" />
             <h2 className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
               {section.title}
             </h2>
