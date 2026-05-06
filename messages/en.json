@@ -1,0 +1,181 @@
+{
+  "Navigation": {
+    "primaryLabel": "Primary navigation",
+    "mobileLabel": "Mobile navigation",
+    "languageLabel": "Language selection",
+    "home": "Home",
+    "about": "About",
+    "apps": "Apps / Works",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "inquire": "Inquire"
+  },
+  "Footer": {
+    "description": "Yasuyuki Egi's independent development studio for mobile apps and product engineering with Flutter, React Native, React, and TypeScript.",
+    "pages": "Pages",
+    "copyright": "© {year} EGI Studio. All rights reserved.",
+    "staticBuild": "Built as a static Next.js site for reliable global hosting."
+  },
+  "Home": {
+    "meta": {
+      "title": "Mobile App Development Studio",
+      "description": "EGI Studio is Yasuyuki Egi's independent studio for Flutter, React Native, React, TypeScript, and mobile product engineering."
+    },
+    "hero": {
+      "eyebrow": "Independent mobile app studio",
+      "title": "Mobile product engineering that moves with small teams.",
+      "description": "EGI Studio builds mobile and web products with Flutter, React Native, Next.js, React, TypeScript, and AWS, from early product work through production and shipped App Store apps.",
+      "primaryCta": "Start a project",
+      "secondaryCta": "View works",
+      "buildTarget": "core stack",
+      "stable": "production minded"
+    },
+    "profile": {
+      "eyebrow": "Profile",
+      "title": "A solo studio built around ownership and execution.",
+      "description": "Yasuyuki Egi is a software engineer with experience in enterprise package software, a generative AI product, ocean-information mobile apps, freelance work, and independently released Flutter iOS apps.",
+      "cards": [
+        {
+          "title": "Mobile development",
+          "copy": "Flutter and React Native development for iOS and Android, including UI implementation, testing, and App Store release preparation."
+        },
+        {
+          "title": "Product implementation",
+          "copy": "Hands-on productization and new-product development with Next.js, React, TypeScript, NestJS, AWS, and Docker in small-team environments."
+        },
+        {
+          "title": "Continuous improvement",
+          "copy": "A practical focus on GitHub Actions, test coverage, operational fixes, and ongoing learning through documentation and technical books."
+        }
+      ]
+    },
+    "featured": {
+      "eyebrow": "Featured projects",
+      "title": "Experience across work and independent apps.",
+      "description": "Representative areas include generative AI products, ocean-information mobile apps, and independently shipped Flutter iOS apps."
+    },
+    "stack": {
+      "eyebrow": "Stack",
+      "title": "Technology for implementation and delivery.",
+      "description": "The studio works across mobile, web frontend, backend, infrastructure, and CI/CD to keep products moving."
+    }
+  },
+  "About": {
+    "meta": {
+      "title": "About",
+      "description": "About EGI Studio, Yasuyuki Egi's independent mobile app development and software engineering studio."
+    },
+    "hero": {
+      "eyebrow": "About",
+      "title": "An independent studio for mobile apps and product engineering.",
+      "description": "EGI Studio is operated by Yasuyuki Egi. The studio focuses on iOS and Android apps, admin web apps, and supporting engineering work with Flutter, React Native, Next.js, React, TypeScript, and AWS."
+    },
+    "focus": {
+      "title": "Experience",
+      "copy": "Since 2023, Yasuyuki has worked on enterprise package software with Java and JavaScript, then moved into a generative AI product from planning and development through productization, contributing Flutter mobile apps, a Next.js admin web app, React / TypeScript, and AWS / Docker environments. He also contributes to ocean-information mobile app development with React Native."
+    },
+    "availability": {
+      "title": "Availability",
+      "copy": "Available for mobile app builds, existing app feature work, Flutter / React Native implementation, Next.js / React / TypeScript frontend development, CI/CD improvements, App Store release preparation, PoC-to-production development, and technical cleanup. Certifications include Fundamental Information Technology Engineer, Oracle Java Silver SE 11, and Oracle Master Silver."
+    }
+  },
+  "Apps": {
+    "meta": {
+      "title": "Apps / Works",
+      "description": "Selected generative AI product work, ocean-information mobile app development, and independent Flutter app releases from EGI Studio."
+    },
+    "hero": {
+      "eyebrow": "Apps / Works",
+      "title": "Product work, mobile apps, freelance and indie development.",
+      "description": "A concise overview of EGI Studio's practical development areas based on professional and independent work. Private projects are anonymized and summarized at a high level."
+    }
+  },
+  "Projects": {
+    "cocoVoice": {
+      "title": "Generative AI conversation product",
+      "type": "Generative AI product",
+      "summary": "A new product designed to draw out employee feedback through anonymous posts and conversations with generative AI, then report insights to management. Yasuyuki contributed as the main engineer through productization, using a Flutter app, a Next.js admin web app, React / TypeScript, AWS, and Docker.",
+      "status": "Lead engineer"
+    },
+    "oeView": {
+      "title": "Ocean information mobile app",
+      "type": "Freelance development",
+      "summary": "Mobile development for an ocean forecasting service used by fisheries. Work included iOS and Android features with React Native and TypeScript, plus GitHub Actions and test-code improvements.",
+      "status": "Development member"
+    },
+    "personalApps": {
+      "title": "Independent Flutter iOS apps",
+      "type": "Indie apps",
+      "summary": "Two Flutter-built iOS apps released on the App Store. Yasuyuki handled UI design, implementation, and Apple submission end to end.",
+      "status": "Shipped"
+    }
+  },
+  "Privacy": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "Privacy policy covering Firebase, analytics, Supabase, contact inquiries, and data handling for EGI Studio."
+    },
+    "hero": {
+      "eyebrow": "Privacy Policy",
+      "title": "Privacy-conscious product development.",
+      "description": "This policy summarizes common data handling practices for EGI Studio websites, apps, and related inquiries. Individual apps may include additional privacy details when required."
+    },
+    "sections": [
+      {
+        "title": "Firebase",
+        "copy": "Some EGI Studio apps may use Firebase services such as authentication, crash reporting, cloud messaging, or remote configuration. Data processed by Firebase is used to operate app functionality, improve reliability, and diagnose technical issues."
+      },
+      {
+        "title": "Analytics",
+        "copy": "Analytics may be used to understand aggregate product usage and improve app quality. Where possible, analytics are configured to minimize personal identification and focus on operational signals."
+      },
+      {
+        "title": "Supabase",
+        "copy": "Some products may use Supabase for database, authentication, storage, or backend workflows. Data stored in Supabase is limited to information required for the relevant product experience."
+      },
+      {
+        "title": "Contact inquiries",
+        "copy": "When you contact EGI Studio, submitted information such as name, email address, company, and message content may be used to respond to the inquiry and manage future communication."
+      },
+      {
+        "title": "Data handling",
+        "copy": "EGI Studio treats product and inquiry data with care, keeps access limited to operational needs, and does not sell personal data. Requests about data access, correction, or deletion can be sent by email."
+      }
+    ]
+  },
+  "Contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Contact EGI Studio for mobile app development, software engineering, and contract work inquiries."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Discuss an app, product, or engineering engagement.",
+      "description": "Reach out for Flutter / React Native apps, Next.js / React / TypeScript development, PoC-to-production work, CI/CD improvements, and App Store release preparation."
+    },
+    "direct": {
+      "eyebrow": "Direct contact",
+      "title": "Contact by email or X DM.",
+      "description": "This is a static site, so it does not include a server-backed contact form. You can use the mail link or reach out through X DM.",
+      "emailCta": "Email inquiry",
+      "xCta": "Contact on X",
+      "note": "The email link opens the default mail app on your device. If no mail app is configured, copy the email address directly."
+    },
+    "mail": {
+      "subject": "Development inquiry",
+      "body": "Project outline:\nTarget platforms:\nExpected timeline:\nBudget range:\nWhat you would like to discuss:\n"
+    },
+    "contactMethods": {
+      "email": "Email",
+      "x": "X / DM",
+      "xDescription": "X messages are also welcome when DMs are available.",
+      "include": "Helpful details",
+      "items": [
+        "Project outline",
+        "Target platforms",
+        "Expected timeline",
+        "Scope you want to discuss"
+      ]
+    }
+  }
+}

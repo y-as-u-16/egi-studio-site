@@ -1,0 +1,181 @@
+{
+  "Navigation": {
+    "primaryLabel": "主要ナビゲーション",
+    "mobileLabel": "モバイルナビゲーション",
+    "languageLabel": "言語選択",
+    "home": "ホーム",
+    "about": "概要",
+    "apps": "アプリ / 実績",
+    "privacy": "プライバシー",
+    "contact": "お問い合わせ",
+    "inquire": "相談する"
+  },
+  "Footer": {
+    "description": "Flutter、React Native、React / TypeScript を軸に、モバイルアプリとプロダクト開発を行う惠木靖之の独立系開発スタジオです。",
+    "pages": "ページ",
+    "copyright": "© {year} EGI Studio. All rights reserved.",
+    "staticBuild": "安定したグローバル配信のため、静的 Next.js サイトとして構築しています。"
+  },
+  "Home": {
+    "meta": {
+      "title": "モバイルアプリ開発スタジオ",
+      "description": "EGI Studio は Flutter、React Native、React / TypeScript を中心に、モバイルアプリとプロダクト開発を行う惠木靖之の開発スタジオです。"
+    },
+    "hero": {
+      "eyebrow": "Independent mobile app studio",
+      "title": "少人数でも前に進める、モバイルプロダクト開発。",
+      "description": "EGI Studio は、Flutter、React Native、Next.js、React / TypeScript、AWS を用いて、企画段階のプロダクトから製品化・公開済みアプリまで一貫して開発します。",
+      "primaryCta": "プロジェクトを相談する",
+      "secondaryCta": "実績を見る",
+      "buildTarget": "core stack",
+      "stable": "production minded"
+    },
+    "profile": {
+      "eyebrow": "Profile",
+      "title": "自走力を強みにした、ソロ開発スタジオ。",
+      "description": "惠木靖之は、業務パッケージ開発、生成 AI を活用した新規プロダクト、海況情報系のモバイルアプリ、副業・個人開発での App Store 公開まで経験してきたソフトウェアエンジニアです。",
+      "cards": [
+        {
+          "title": "モバイル開発",
+          "copy": "Flutter と React Native を用いた iOS / Android アプリ開発、UI 実装、テスト、ストア公開準備に対応します。"
+        },
+        {
+          "title": "プロダクト実装",
+          "copy": "Next.js、React / TypeScript、NestJS、AWS、Docker を組み合わせ、少人数チームでの新規事業開発と製品化を推進してきました。"
+        },
+        {
+          "title": "継続的な改善",
+          "copy": "GitHub Actions、テストコード、運用改善、公式ドキュメントと技術書によるキャッチアップを重視しています。"
+        }
+      ]
+    },
+    "featured": {
+      "eyebrow": "Featured projects",
+      "title": "実務と個人開発の経験。",
+      "description": "生成 AI プロダクト、海況情報系モバイルアプリ、個人 Flutter アプリなど、実際の開発経験に基づいた領域を紹介します。"
+    },
+    "stack": {
+      "eyebrow": "Stack",
+      "title": "実装から運用改善まで扱える技術。",
+      "description": "モバイル、Web フロントエンド、バックエンド、インフラ、CI/CD を横断し、プロダクトを前に進めるための技術を選びます。"
+    }
+  },
+  "About": {
+    "meta": {
+      "title": "概要",
+      "description": "EGI Studio は、惠木靖之が運営するモバイルアプリ開発とソフトウェアエンジニアリングの独立系スタジオです。"
+    },
+    "hero": {
+      "eyebrow": "About",
+      "title": "モバイルアプリとプロダクト開発のための独立系スタジオ。",
+      "description": "EGI Studio は、惠木靖之が運営する開発スタジオです。Flutter、React Native、Next.js、React / TypeScript を中心に、iOS / Android アプリ、管理者向け Web、AWS を含む開発支援を行います。"
+    },
+    "focus": {
+      "title": "経験領域",
+      "copy": "2023 年から Java / JavaScript による業務パッケージ刷新に携わり、その後は生成 AI を活用した新規プロダクトの企画・開発から製品化まで担当。Flutter アプリ、Next.js 管理者向け Web、React / TypeScript、AWS / Docker 環境構築に携わりました。副業では海況情報系アプリの React Native 開発にも参画しています。"
+    },
+    "availability": {
+      "title": "対応可能な仕事",
+      "copy": "新規モバイルアプリ開発、既存アプリの機能追加、Flutter / React Native 実装、Next.js / React / TypeScript フロントエンド、CI/CD 改善、ストア公開準備、PoC から製品化までの開発、技術的負債の整理に対応できます。基本情報技術者、Oracle Java Silver SE 11、Oracle Master Silver を取得しています。"
+    }
+  },
+  "Apps": {
+    "meta": {
+      "title": "アプリ / 実績",
+      "description": "EGI Studio の生成 AI プロダクト、海況情報系モバイルアプリ、個人 Flutter アプリ開発の実績紹介です。"
+    },
+    "hero": {
+      "eyebrow": "Apps / Works",
+      "title": "プロダクト開発、モバイルアプリ、副業・個人開発。",
+      "description": "職務経歴と個人開発をもとに、EGI Studio が得意とする開発領域を整理しています。公開できない案件は名称を伏せ、概要のみ掲載しています。"
+    }
+  },
+  "Projects": {
+    "cocoVoice": {
+      "title": "生成 AI 対話プロダクト",
+      "type": "生成 AI プロダクト",
+      "summary": "匿名投稿と生成 AI との対話を通じて従業員の本音を引き出し、経営層向けにレポートする新規プロダクト。Flutter アプリと Next.js による管理者向け Web、React / TypeScript、AWS、Docker を用い、少人数体制で製品化まで推進しました。",
+      "status": "担当エンジニア"
+    },
+    "oeView": {
+      "title": "海況情報モバイルアプリ",
+      "type": "副業開発",
+      "summary": "漁業者向けの海況予測サービスに関わるモバイルアプリ開発。React Native と TypeScript で iOS / Android 機能を実装し、GitHub Actions やテストコード整備にも対応しました。",
+      "status": "開発メンバー"
+    },
+    "personalApps": {
+      "title": "個人 Flutter iOS アプリ",
+      "type": "個人開発",
+      "summary": "Flutter 製 iOS アプリを 2 本 App Store に公開。UI 設計、実装、Apple 申請まで一人で完遂し、個人でもプロダクトを公開まで進める経験を積んでいます。",
+      "status": "App Store 公開"
+    }
+  },
+  "Privacy": {
+    "meta": {
+      "title": "プライバシーポリシー",
+      "description": "Firebase、Analytics、Supabase、お問い合わせ、データ取り扱いに関する EGI Studio のプライバシーポリシーです。"
+    },
+    "hero": {
+      "eyebrow": "Privacy Policy",
+      "title": "プライバシーに配慮したプロダクト開発。",
+      "description": "このポリシーは、EGI Studio の Web サイト、アプリ、お問い合わせに関する一般的なデータ取り扱いをまとめたものです。個別アプリでは、必要に応じて追加のプライバシー情報を記載します。"
+    },
+    "sections": [
+      {
+        "title": "Firebase",
+        "copy": "EGI Studio の一部アプリでは、認証、クラッシュレポート、クラウドメッセージング、Remote Config などの Firebase サービスを利用する場合があります。Firebase で処理されるデータは、アプリ機能の提供、信頼性の改善、技術的な問題の診断に使用されます。"
+      },
+      {
+        "title": "Analytics",
+        "copy": "アプリの利用状況を集計的に把握し、品質改善に役立てるために Analytics を利用する場合があります。可能な範囲で個人の識別を最小限にし、運用上必要なシグナルを中心に扱います。"
+      },
+      {
+        "title": "Supabase",
+        "copy": "一部プロダクトでは、データベース、認証、ストレージ、バックエンド処理に Supabase を利用する場合があります。Supabase に保存されるデータは、対象プロダクトの体験に必要な情報に限定されます。"
+      },
+      {
+        "title": "お問い合わせ",
+        "copy": "お問い合わせ時に送信された氏名、メールアドレス、会社名、メッセージ内容などは、返信および今後の連絡管理のために使用される場合があります。"
+      },
+      {
+        "title": "データの取り扱い",
+        "copy": "EGI Studio は、プロダクトおよびお問い合わせに関するデータを慎重に扱い、アクセスを運用上必要な範囲に限定し、個人データを販売しません。データの開示、訂正、削除に関する依頼はメールで受け付けます。"
+      }
+    ]
+  },
+  "Contact": {
+    "meta": {
+      "title": "お問い合わせ",
+      "description": "モバイルアプリ開発、ソフトウェアエンジニアリング、業務委託開発について EGI Studio にお問い合わせください。"
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "アプリ、プロダクト、開発支援について相談する。",
+      "description": "Flutter / React Native アプリ、Next.js / React / TypeScript 開発、PoC から製品化までの開発、CI/CD 改善、ストア公開準備などの相談を受け付けています。"
+    },
+    "direct": {
+      "eyebrow": "Direct contact",
+      "title": "メールまたは X の DM でご連絡ください。",
+      "description": "このサイトは静的サイトのため、フォーム送信機能は置いていません。メールアプリを開くリンク、または X の DM からご連絡いただけます。",
+      "emailCta": "メールで問い合わせる",
+      "xCta": "X で連絡する",
+      "note": "メールリンクを押すと、お使いの端末で設定されているメールアプリが開きます。メールアプリが未設定の場合は、メールアドレスを直接コピーしてください。"
+    },
+    "mail": {
+      "subject": "開発相談",
+      "body": "プロジェクト概要:\n対象プラットフォーム:\n希望時期:\nご予算感:\n相談したい内容:\n"
+    },
+    "contactMethods": {
+      "email": "メール",
+      "x": "X / DM",
+      "xDescription": "DM が開放されている場合は、X からのご連絡でも問題ありません。",
+      "include": "あると助かる情報",
+      "items": [
+        "プロジェクト概要",
+        "対象プラットフォーム",
+        "希望時期",
+        "相談したい開発範囲"
+      ]
+    }
+  }
+}
