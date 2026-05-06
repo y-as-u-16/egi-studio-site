@@ -17,7 +17,7 @@ export function Section({
   className = "",
 }: SectionProps) {
   return (
-    <section className={`mx-auto w-full max-w-6xl px-5 py-16 sm:px-8 sm:py-24 ${className}`}>
+    <section className={`mx-auto w-full max-w-6xl px-5 py-12 sm:px-8 sm:py-20 ${className}`}>
       <div className="max-w-3xl">
         {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
         <h2 className="mt-4 text-3xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-5xl">
