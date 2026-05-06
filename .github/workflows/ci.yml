@@ -32,5 +32,5 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://y-as-u-16.github.io
-          NEXT_PUBLIC_BASE_PATH: /egi-studio-site
+          NEXT_PUBLIC_SITE_URL: https://studio.egi-engineer.com
+          NEXT_PUBLIC_BASE_PATH:
