@@ -36,7 +36,7 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_SITE_URL: https://studio.egi-engineer.com
-          NEXT_PUBLIC_BASE_PATH: /egi-studio-site
+          NEXT_PUBLIC_BASE_PATH:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
