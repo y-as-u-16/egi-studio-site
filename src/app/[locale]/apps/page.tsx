@@ -38,7 +38,7 @@ export default async function AppsPage({ params }: Props) {
       title={t("hero.title")}
       description={t("hero.description")}
     >
-      <div className="grid gap-5 lg:grid-cols-3">
+      <div className="grid gap-3 sm:gap-5 lg:grid-cols-3">
         {localizedProjects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
