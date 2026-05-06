@@ -30,22 +30,22 @@ export default async function AboutPage({ params }: Props) {
         title={t("hero.title")}
         description={t("hero.description")}
       />
-      <section className="mx-auto grid w-full max-w-6xl gap-5 px-5 pb-20 sm:px-8 md:grid-cols-2">
-        <div className="rounded-3xl border border-zinc-200 bg-white p-7 dark:border-white/10 dark:bg-white/[0.04]">
-          <div className="mb-5 h-1 w-8 rounded-full bg-blue-500/60 dark:bg-blue-400/60" />
-          <h2 className="text-2xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
+      <section className="mx-auto grid w-full max-w-6xl gap-3 px-4 pb-16 sm:gap-5 sm:px-8 sm:pb-20 md:grid-cols-2">
+        <div className="rounded-2xl border border-zinc-200 bg-white p-5 dark:border-white/10 dark:bg-white/[0.04] sm:rounded-3xl sm:p-7">
+          <div className="mb-4 h-1 w-6 rounded-full bg-gradient-to-r from-blue-500/60 to-cyan-400/60 dark:from-blue-400/60 dark:to-cyan-400/60 sm:mb-5 sm:w-8" />
+          <h2 className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-2xl">
             {t("focus.title")}
           </h2>
-          <p className="mt-5 text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="mt-4 text-sm leading-7 text-zinc-600 dark:text-zinc-400 sm:mt-5">
             {t("focus.copy")}
           </p>
         </div>
-        <div className="rounded-3xl border border-zinc-200 bg-white p-7 dark:border-white/10 dark:bg-white/[0.04]">
-          <div className="mb-5 h-1 w-8 rounded-full bg-blue-500/60 dark:bg-blue-400/60" />
-          <h2 className="text-2xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
+        <div className="rounded-2xl border border-zinc-200 bg-white p-5 dark:border-white/10 dark:bg-white/[0.04] sm:rounded-3xl sm:p-7">
+          <div className="mb-4 h-1 w-6 rounded-full bg-gradient-to-r from-blue-500/60 to-cyan-400/60 dark:from-blue-400/60 dark:to-cyan-400/60 sm:mb-5 sm:w-8" />
+          <h2 className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-2xl">
             {t("availability.title")}
           </h2>
-          <p className="mt-5 text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="mt-4 text-sm leading-7 text-zinc-600 dark:text-zinc-400 sm:mt-5">
             {t("availability.copy")}
           </p>
         </div>

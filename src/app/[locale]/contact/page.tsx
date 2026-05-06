@@ -33,20 +33,20 @@ export default async function ContactPage({ params }: Props) {
       title={t("hero.title")}
       description={t("hero.description")}
     >
-      <div className="grid gap-8 lg:grid-cols-[1fr_0.8fr]">
-        <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-white/[0.04] sm:p-8">
-          <p className="text-sm font-medium text-blue-600 dark:text-blue-300">
+      <div className="grid gap-5 sm:gap-8 lg:grid-cols-[1fr_0.8fr]">
+        <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-white/[0.04] sm:rounded-3xl sm:p-8">
+          <p className="text-xs font-medium text-blue-600 dark:text-blue-300 sm:text-sm">
             {t("direct.eyebrow")}
           </p>
-          <h2 className="mt-4 text-2xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
+          <h2 className="mt-3 text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:mt-4 sm:text-2xl">
             {t("direct.title")}
           </h2>
-          <p className="mt-4 text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="mt-3 text-sm leading-7 text-zinc-600 dark:text-zinc-400 sm:mt-4">
             {t("direct.description")}
           </p>
-          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-6 flex flex-col gap-3 sm:mt-7 sm:flex-row">
             <a
-              className="inline-flex min-h-11 items-center justify-center rounded-full bg-zinc-950 px-5 text-sm font-medium text-white transition hover:bg-zinc-800 dark:bg-white dark:text-zinc-950 dark:hover:bg-zinc-200"
+              className="inline-flex min-h-11 items-center justify-center rounded-full bg-zinc-950 px-5 text-sm font-medium text-white shadow-sm transition hover:bg-zinc-800 dark:bg-white dark:text-zinc-950 dark:hover:bg-zinc-200"
               href={mailHref}
             >
               {t("direct.emailCta")}
@@ -60,24 +60,24 @@ export default async function ContactPage({ params }: Props) {
               {t("direct.xCta")}
             </a>
           </div>
-          <p className="mt-5 text-xs leading-6 text-zinc-500 dark:text-zinc-500">
+          <p className="mt-4 text-xs leading-6 text-zinc-500 dark:text-zinc-500 sm:mt-5">
             {t("direct.note")}
           </p>
         </div>
-        <aside className="space-y-4">
-          <div className="rounded-3xl border border-zinc-200 bg-zinc-50 p-6 dark:border-white/10 dark:bg-white/[0.04]">
-            <h2 className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
+        <aside className="space-y-3 sm:space-y-4">
+          <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-5 dark:border-white/10 dark:bg-white/[0.04] sm:rounded-3xl sm:p-6">
+            <h2 className="text-lg font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-xl">
               {t("contactMethods.email")}
             </h2>
-            <a className="mt-4 block text-link" href={`mailto:${site.email}`}>
+            <a className="mt-3 block text-link sm:mt-4" href={`mailto:${site.email}`}>
               {site.email}
             </a>
           </div>
-          <div className="rounded-3xl border border-zinc-200 bg-zinc-50 p-6 dark:border-white/10 dark:bg-white/[0.04]">
-            <h2 className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
+          <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-5 dark:border-white/10 dark:bg-white/[0.04] sm:rounded-3xl sm:p-6">
+            <h2 className="text-lg font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-xl">
               {t("contactMethods.x")}
             </h2>
-            <div className="mt-4 grid gap-3 text-sm">
+            <div className="mt-3 grid gap-3 text-sm sm:mt-4">
               <a className="text-link" href={site.x} target="_blank" rel="noreferrer">
                 @egys_16
               </a>
@@ -86,14 +86,14 @@ export default async function ContactPage({ params }: Props) {
               </p>
             </div>
           </div>
-          <div className="rounded-3xl border border-zinc-200 bg-zinc-50 p-6 dark:border-white/10 dark:bg-white/[0.04]">
-            <h2 className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">
+          <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-5 dark:border-white/10 dark:bg-white/[0.04] sm:rounded-3xl sm:p-6">
+            <h2 className="text-lg font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-xl">
               {t("contactMethods.include")}
             </h2>
-            <ul className="mt-4 space-y-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+            <ul className="mt-3 space-y-2.5 text-sm leading-6 text-zinc-600 dark:text-zinc-400 sm:mt-4 sm:space-y-3">
               {(t.raw("contactMethods.items") as string[]).map((item) => (
                 <li key={item} className="flex items-center gap-2.5">
-                  <span className="size-1.5 shrink-0 rounded-full bg-blue-500/60 dark:bg-blue-400/60" />
+                  <span className="size-1.5 shrink-0 rounded-full bg-gradient-to-r from-blue-500 to-cyan-400" />
                   {item}
                 </li>
               ))}
